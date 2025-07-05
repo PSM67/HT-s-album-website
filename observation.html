@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT's album</title>
+</head>
+
+<style>
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #0077b6;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 30px;
+    cursor: grab;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container:active {
+    cursor: grabbing;
+}
+
+.container a img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right: 200px;
+}
+
+.container a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.container a img.active {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #0077b6;
+}
+
+.arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.8em;
+    color: #fff;
+    background: #0077b6;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.arrow:hover {
+    background: #023e8a;
+}
+
+.arrow.left {
+    left: 20px;
+}
+
+.arrow.right {
+    right: 20px;
+}
+
+    </style>
+
+<body>
+    <h1> HT'S OBSERVATION</h1>
+    <div class="container" id="slider">
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0ZhG32xemn3LPYEG6JZGN81BchYUHJ5URbe7k9DAEJD2hCSCGHnvu7dzGn2Q9a6Mal&id=100057586054440&_rdr" target="_blank"><img src="1.1.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="http://facebook.com/story.php?story_fbid=pfbid02x7jU178sNPcrtcZSaqMQEh72egvW6xEV2pQgoSX3nKZ1pYE9csmvtLwzj22BNVDLl&id=100057586054440&_rdr" target="_blank"><img src="1.2.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0MDdia5n6Q86Me4PwXFP1x1s7VnrGVmc7nfedoQ7unos7BqC95r7j6DrMxFAtXDgpl&id=100057586054440&_rdr" target="_blank"><img src="1.3.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02QaFChFTRAShzGtqst6S9YJjWRQhcPLxKArTrMRFF9szJCdb3EiPdodngEFFZyj8Hl&id=100057586054440&_rdr" target="_blank"><img src="1.4.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0CsBGT3mr9tdnPNF8gSWSpsDzmZa1mAjZWunvde8SyTTTNqYA3c2vxABf2eEkj4PNl&id=100057586054440&_rdr" target="_blank"><img src="1.5.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid05Pca9h7gN5V7nQLKBF6xF4SD4aCzXHfQq6tYE32Zvesn7BsP8oSwnEDSZE1wkVpTl&id=100063494127090&_rdr" target="_blank"><img src="1.6.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0KpbmxwQRPXzDu9AWsnALPwxgHHnqzj1haLKzNZoEz3xGJNYJUxVNqTJhF7e6CsBhl&id=100057586054440&_rdr" target="_blank"><img src="1.7.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid027tXxEB7M3QCDhEEd76cPBveJqQp3QmBxzDtBF4huMWAQ5kLR4U9C9J6tfBp1k21dl&id=100057586054440&_rdr" target="_blank"><img src="1.8.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02iKfF1bb3yWZLu9JDDud2RNxa4cb15oZSMk8svkmJ7EoF2JUCaWnKJTyUwgmLmrCCl&id=100057586054440&_rdr" target="_blank"><img src="1.9.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0gKgPwaxZUbchqaFrb3CfAcfGaJ51tXK52Uby7pufCeFD1cN8v3Ukhx7TrQ1rncYRl&id=100057586054440&_rdr" target="_blank"><img src="1.10.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0oz4CaEyX1f94XybnTjDPGEvb4Fm9nPy44gVZwM6aCAKiHKEQFBVkA3Tb6ZvnTBmCl&id=100057586054440&_rdr" target="_blank"><img src="1.11.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02V59YnBsuCPbffchZeAm4XNrGadQajXFAeaAtrvUuSDFpFogCm3Zpmu7UeLSaRcV2l&id=100057586054440&_rdr" target="_blank"><img src="1.12.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02i52TiSTFa7SF1zVB46BsXPSodqMdVdcTufVFzxBxc7DBbD14FCCDv3yEBuihjBtBl&id=100057586054440&_rdr" target="_blank"><img src="1.13.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02R2M5BgqZ3Ttr6aheSHjAzeVcFcery6GPCAMuTRCB3DF8mqwyMxcAsPRD8txFNTezl&id=100057586054440&_rdr" target="_blank"><img src="1.14.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid0iqFqnWP39tmGWEfSP7CtpPWXfFz2w5ddkRqzS3Pnkx9rsN3iAdZFNsWLUiSreDXvl&id=100057586054440&_rdr" target="_blank"><img src="1.15.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid02RQjZDzvFX9o4UuBSycQoeMcTZhDrxr2ZqjMryJphggEU8ypNugA5eaEuo8VYLYspl&id=100057586054440&_rdr" target="_blank"><img src="1.16.jpg" alt="รูปของฉัน" width="20%"></a>
+        <a href="https://www.facebook.com/story.php?story_fbid=pfbid028LJpa1EA8ufQJeV13ePvEvpexQ4K4Ajtuq9UuAMUm82frJCkSdJ8wjKokBLXaUidl&id=100079258436733&_rdr" target="_blank"><img src="1.17.jpg" alt="รูปของฉัน" width="20%"></a>
+    </div>
+    <div class="arrow left">&#10094;</div>
+    <div class="arrow right">&#10095;</div>
+        
+</body>
+<script>
+    const slider = document.getElementById('slider');
+    const leftArrow = document.querySelector('.arrow.left');
+    const rightArrow = document.querySelector('.arrow.right');
+
+    leftArrow.addEventListener('click', () => {
+        slider.scrollBy({ left: -700, behavior: 'smooth' });
+    });
+
+    rightArrow.addEventListener('click', () => {
+        slider.scrollBy({ left: 700, behavior: 'smooth' });
+    });
+    const images = document.querySelectorAll('.container a img');
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.8) {
+        images.forEach(img => img.classList.remove('active'));
+        entry.target.classList.add('active');
+        } else {
+        }
+    });
+    }, {
+    root: null,
+    threshold: 0.8,
+    });
+
+    images.forEach(img => observer.observe(img));
+
+</script>
+
+</html>
